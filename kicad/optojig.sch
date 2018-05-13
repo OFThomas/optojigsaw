@@ -1,0 +1,290 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:trn1-0510
+LIBS:optojig-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM358 U?
+U 1 1 5AF862C9
+P 6050 3400
+F 0 "U?" H 6050 3600 50  0000 L CNN
+F 1 "LM358" H 6050 3200 50  0000 L CNN
+F 2 "" H 6050 3400 50  0001 C CNN
+F 3 "" H 6050 3400 50  0001 C CNN
+	1    6050 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRN1-0510 U?
+U 1 1 5AF873A9
+P 3900 2150
+F 0 "U?" H 3900 2500 60  0000 C CNN
+F 1 "TRN1-0510" H 3900 1800 60  0000 C CNN
+F 2 "" H 3900 2150 60  0001 C CNN
+F 3 "" H 3900 2150 60  0001 C CNN
+	1    3900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AF877B1
+P 5000 3950
+F 0 "R?" V 5080 3950 50  0000 C CNN
+F 1 "R" V 5000 3950 50  0000 C CNN
+F 2 "" V 4930 3950 50  0001 C CNN
+F 3 "" H 5000 3950 50  0001 C CNN
+	1    5000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LDR03 R?
+U 1 1 5AF8784F
+P 5000 2850
+F 0 "R?" V 4800 2850 50  0000 C CNN
+F 1 "LDR03" V 5075 2850 50  0000 C TNN
+F 2 "Opto-Devices:Resistor_LDR_10x8.5_RM7.6" V 5175 2850 50  0001 C CNN
+F 3 "" H 5000 2800 50  0001 C CNN
+	1    5000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 5AF878F9
+P 5500 3500
+F 0 "RV?" V 5325 3500 50  0000 C CNN
+F 1 "POT" V 5400 3500 50  0000 C CNN
+F 2 "" H 5500 3500 50  0001 C CNN
+F 3 "" H 5500 3500 50  0001 C CNN
+	1    5500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AF879E1
+P 6700 3700
+F 0 "R?" V 6780 3700 50  0000 C CNN
+F 1 "R" V 6700 3700 50  0000 C CNN
+F 2 "" V 6630 3700 50  0001 C CNN
+F 3 "" H 6700 3700 50  0001 C CNN
+	1    6700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5AF87A5A
+P 6700 4050
+F 0 "D?" H 6700 4150 50  0000 C CNN
+F 1 "LED" H 6700 3950 50  0000 C CNN
+F 2 "" H 6700 4050 50  0001 C CNN
+F 3 "" H 6700 4050 50  0001 C CNN
+	1    6700 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Battery_Cell BT?
+U 1 1 5AF87C1E
+P 2650 2250
+F 0 "BT?" H 2750 2350 50  0000 L CNN
+F 1 "Battery_Cell" H 2750 2250 50  0000 L CNN
+F 2 "" V 2650 2310 50  0001 C CNN
+F 3 "" V 2650 2310 50  0001 C CNN
+	1    2650 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2000 8400 2000
+Wire Wire Line
+	5950 2000 5950 3100
+Wire Wire Line
+	5000 2700 5000 2000
+Connection ~ 5000 2000
+Wire Wire Line
+	5000 3000 5000 3800
+Wire Wire Line
+	5750 3300 5000 3300
+Connection ~ 5000 3300
+Wire Wire Line
+	5750 3500 5650 3500
+Wire Wire Line
+	5500 3350 5500 2000
+Connection ~ 5500 2000
+Wire Wire Line
+	5500 3650 5500 4350
+Wire Wire Line
+	5000 4350 5000 4100
+Wire Wire Line
+	5950 4350 5950 3700
+Wire Wire Line
+	6350 3400 6700 3400
+Wire Wire Line
+	6700 3400 6700 3550
+Wire Wire Line
+	6700 3900 6700 3850
+Wire Wire Line
+	6700 4350 6700 4200
+Wire Wire Line
+	4450 2300 4600 2300
+Wire Wire Line
+	4600 2300 4600 4350
+Wire Wire Line
+	2650 2050 2650 2000
+Wire Wire Line
+	2650 2000 3350 2000
+Wire Wire Line
+	3350 2300 3250 2300
+Wire Wire Line
+	3250 2300 3250 2450
+Wire Wire Line
+	3250 2450 2650 2450
+Wire Wire Line
+	2650 2450 2650 2350
+Wire Wire Line
+	4600 4350 9150 4350
+Connection ~ 5950 4350
+Connection ~ 5500 4350
+Connection ~ 5000 4350
+$Comp
+L LM358 U?
+U 1 1 5AF88638
+P 8500 3400
+F 0 "U?" H 8500 3600 50  0000 L CNN
+F 1 "LM358" H 8500 3200 50  0000 L CNN
+F 2 "" H 8500 3400 50  0001 C CNN
+F 3 "" H 8500 3400 50  0001 C CNN
+	1    8500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AF8863E
+P 7450 3950
+F 0 "R?" V 7530 3950 50  0000 C CNN
+F 1 "R" V 7450 3950 50  0000 C CNN
+F 2 "" V 7380 3950 50  0001 C CNN
+F 3 "" H 7450 3950 50  0001 C CNN
+	1    7450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LDR03 R?
+U 1 1 5AF88644
+P 7450 2850
+F 0 "R?" V 7250 2850 50  0000 C CNN
+F 1 "LDR03" V 7525 2850 50  0000 C TNN
+F 2 "Opto-Devices:Resistor_LDR_10x8.5_RM7.6" V 7625 2850 50  0001 C CNN
+F 3 "" H 7450 2800 50  0001 C CNN
+	1    7450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 5AF8864A
+P 7950 3500
+F 0 "RV?" V 7775 3500 50  0000 C CNN
+F 1 "POT" V 7850 3500 50  0000 C CNN
+F 2 "" H 7950 3500 50  0001 C CNN
+F 3 "" H 7950 3500 50  0001 C CNN
+	1    7950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AF88650
+P 9150 3700
+F 0 "R?" V 9230 3700 50  0000 C CNN
+F 1 "R" V 9150 3700 50  0000 C CNN
+F 2 "" V 9080 3700 50  0001 C CNN
+F 3 "" H 9150 3700 50  0001 C CNN
+	1    9150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5AF88656
+P 9150 4050
+F 0 "D?" H 9150 4150 50  0000 C CNN
+F 1 "LED" H 9150 3950 50  0000 C CNN
+F 2 "" H 9150 4050 50  0001 C CNN
+F 3 "" H 9150 4050 50  0001 C CNN
+	1    9150 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 2000 8400 3100
+Wire Wire Line
+	7450 2700 7450 2000
+Connection ~ 7450 2000
+Wire Wire Line
+	7450 3000 7450 3800
+Wire Wire Line
+	8200 3300 7450 3300
+Connection ~ 7450 3300
+Wire Wire Line
+	8200 3500 8100 3500
+Wire Wire Line
+	7950 3350 7950 2000
+Connection ~ 7950 2000
+Wire Wire Line
+	7950 3650 7950 4350
+Wire Wire Line
+	7450 4350 7450 4100
+Wire Wire Line
+	8400 4350 8400 3700
+Wire Wire Line
+	8800 3400 9150 3400
+Wire Wire Line
+	9150 3400 9150 3550
+Wire Wire Line
+	9150 3900 9150 3850
+Wire Wire Line
+	9150 4350 9150 4200
+Connection ~ 8400 4350
+Connection ~ 7950 4350
+Connection ~ 7450 4350
+Connection ~ 5950 2000
+Connection ~ 6700 4350
+$EndSCHEMATC
