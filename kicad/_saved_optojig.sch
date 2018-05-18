@@ -283,7 +283,7 @@ U 1 1 5AFC4CD6
 P 2000 3000
 F 0 "SW1" H 1800 3150 50  0000 C CNN
 F 1 "Switch_SPDT_x2" H 1750 2850 50  0000 C CNN
-F 2 "optojig-footprints:SPDT_switch" H 2000 3000 50  0000 C CNN
+F 2 "optojig-footprints:SPDT_switch" H 1950 3250 50  0000 C CNN
 F 3 "" H 2000 3000 50  0000 C CNN
 	1    2000 3000
 	1    0    0    -1  
@@ -325,32 +325,19 @@ F 3 "" H 9400 4300 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 5AFD9689
 P 6450 5500
-F 0 "#PWR1" H 6450 5250 50  0001 C CNN
+F 0 "#PWR01" H 6450 5250 50  0001 C CNN
 F 1 "GND" H 6450 5350 50  0000 C CNN
 F 2 "" H 6450 5500 50  0000 C CNN
 F 3 "" H 6450 5500 50  0000 C CNN
 	1    6450 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L D D1
-U 1 1 5AFE885E
-P 1700 3500
-F 0 "D1" H 1700 3600 50  0000 C CNN
-F 1 "D" H 1700 3400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 1700 3500 50  0000 C CNN
-F 3 "" H 1700 3500 50  0000 C CNN
-	1    1700 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1550 3500 1300 3500
+	1300 3500 2050 3500
 Connection ~ 1300 3500
-Wire Wire Line
-	1850 3500 2050 3500
 Wire Wire Line
 	2050 3500 2050 3600
 Wire Wire Line

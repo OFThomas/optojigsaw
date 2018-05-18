@@ -1,4 +1,4 @@
-update=Thu 17 May 2018 09:21:46 BST
+update=Fri 18 May 2018 11:44:55 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=contrib
 LibName33=valves
 LibName34=libraries/trn1-0510
 LibName35=libraries/2n2219
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
