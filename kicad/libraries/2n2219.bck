@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N2219
+D 22V Vce, 4A Ic, NPN Power Transistor, TO-126
+K BD433 NPN Power Transistor
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+#End Doc Library

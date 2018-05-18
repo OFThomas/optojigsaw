@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N2219
+D Multicomp Small Signal NPN Transistor
+K 2N2219 NPN Transistor
+$ENDCMP
+#
+#End Doc Library
