@@ -10,7 +10,7 @@
 
 \section{Description}
 
-Optical Jigsaw outreach demo
+Optical Jigsaw outreach demo, used to demonstrate guiding light using differences in refractive indices and repeaters.
 
 
 \section{Introduction - Adults}
@@ -33,7 +33,46 @@ The problem with guiding light is that the light leaks out of the lightpipes. Yo
 
 The object of the demo is to get light from one end to the other using the lightpipe blocks.
 
+\section{User instructions}
 
+\begin{itemize}
+    \item The rechargeable torches (micro-usb) work best as sources, there are a few torch holder
+        frames which, using fishing wire or string can be used to hold the torches.
+    \item Batteries, each repeater lasts between 6-10 hours on a single 9V battery, there
+        is an on-off switch for each repeater board.
+    \item Due to an issue with back-reflection causing the repeaters to trigger
+        themselves in both directions we have taken out the LDRs on one side of each of
+        the repeaters meaning they are now only one-directional.
+    \item Each LED on the repeaters has a POT (potentiometer) associated to it, tuning
+        the POT tunes the sensitivity to incoming light, there are arrows next to each
+        POT which point to the LED it tunes.
+    \item The demo works best in dark or constant light-level rooms, otherwise frequent
+        tuning is needed to ensure the LEDs trigger properly.
+    \item We found that each repeater worked for around 3 blocks, the corner pieces and
+        crossers are very lossy.
+\end{itemize}
+
+
+\section{Troubleshooting}
+
+\textbf{If a repeater isn't working,}
+\begin{enumerate}
+\item Check the switch is on
+\item Check it is facing in the correct direction, the LDR should be on the side with
+\item Reduce the number of lightpipes between the repeater ad the source.
+    incoming light.
+\item Try tuning the POT to the maximums of both directions until the LED turns on
+\item Check the batteries 
+\end{enumerate}
+%
+\textbf{If a torch isn't working,}
+\begin{enumerate}
+    \item Check the torch is on, button is on the bottom of the torch
+    \item Try plugging in the torch as the battery is probably flat.
+\end{enumerate}
+
+
+\newpage
 \section{Improvements to be made}
 
 \begin{itemize}
